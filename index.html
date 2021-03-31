@@ -4,40 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-    .container{
-        padding-top: 100px;
-        background: beige;
-        height: 100vh;
-        display: flex;
-    }
-    .item{
-        width: 40px;
-        height: 40px;
-        border: 1px solid black;
-    }
-    .item1{
-        background: #e53935;
-        flex-basis: 60%;
-        align-self: center;
-    }
-    .item2{
-        background: orange;
-        flex-basis: 30%;
-    }
-    .item3{
-        background: yellow;
-        flex-basis: 10%;
-    }
-</style>
+    <title>resposive web design</title>
+    <script src="main.js" defer></script>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
+<nav class="navbar">
+    <div class="navbar__logo">
+        <i class="fab fa-accusoft"></i>
+        <a href="">DreamCoding</a>
+    </div>
 
-    <div class="container">
-        <div class="item item1">1</div>
-        <div class="item item2">2</div>
-        <div class="item item3">3</div>
-</div>
+    <ul class="navbar__menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Gallert</a></li>
+        <li><a href="">Wedding</a></li>
+        <li><a href="">FAQ</a></li>
+        <li><a href="">Booking</a></li>
+    </ul>
+    <ul class="navbar__icons">
+        <li><i class="fab fa-twitter-square"></i></li>
+        <li><i class="fab fa-facebook"></i></li>
+    </ul>
+    <a href="#" class="navar__toggleBtn">    <i class="fas fa-bars"></i>
+    </a>
+
+
+</nav>
 </body>
 </html>
